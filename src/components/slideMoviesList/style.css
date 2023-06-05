@@ -1,0 +1,38 @@
+.slide-movies-list {
+    margin-top: 80px;
+}
+.slide-movies-list .title-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide-movies-list .title-all .title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.slide-movies-list .title-all .title .tri {
+    border-left: 20px solid #000;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+}
+.slide-movies-list .title-all a {
+    color: #1e8282;
+    font-weight: lighter;
+}
+.slide-movies-list .title-all a i {
+    font-size: 1rem;
+}
+.slide-movies-list ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.slide-movies-list ul li img {
+    width: 210px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #1e8282;
+}

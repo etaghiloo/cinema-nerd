@@ -1,0 +1,110 @@
+.join {
+    /* background-color: rgb(238, 205, 155); */
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    overflow: hidden;
+}
+.join .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.join .background img {
+    width: 100%;
+}
+.join:after {
+    background: radial-gradient(70% 53% at 50% 45%, rgba(0, 0, 0, 0) 0%, #000 100%);
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(12px);
+}
+.join .join-wrapper {
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.join .text {
+    max-width: 600px;
+    z-index: 2;
+}
+.join .text p {
+    padding: 17px 0 35px 0;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    opacity: 0.7;
+}
+.join .text h2 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.join .text ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.join .text ul li i {
+    font-size: 1.3rem;
+    color: #1e8282;
+}
+.join .create-account {
+    width: 438px;
+    z-index: 2;
+}
+/* .join .create-account .create-account-up {
+    border: 1px solid #fff;
+} */
+.join .create-account input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: #ffffffb0;
+    outline: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    /* color: #fff; */
+    margin: 5px 0;
+}
+.join .create-account .name {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.join .create-account .name input {
+    /* margin: 5px; */
+    width: 50%;
+}
+.join .create-account .create-account-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.join .create-account .create-account-down a {
+    color: #1e8282;
+    font-size: 1.3rem;
+}
+.join .create-account .create-account-down a:hover {
+    color: #1e8282;
+}
+.join .create-account .create-account-down button {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border: 1px solid #1e8282;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #1e8282;
+}
+.join .create-account .create-account-down button:hover {
+    /* color: #fff; */
+    cursor: pointer;
+    background-color: #ffffff;
+}

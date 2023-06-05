@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Mukta Mahee Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mukta Mahee Regular"),
+    url("../public/assets/fonts/mukta/MuktaMahee-Regular.woff") format("woff");
+}
+/* 
+@font-face {
+  font-family: "Mukta Mahee ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mukta Mahee ExtraLight"),
+    url("../public/assets/fonts/mukta/MuktaMahee-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mukta Mahee Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mukta Mahee Light"),
+    url("../public/assets/fonts/mukta/MuktaMahee-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mukta Mahee Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mukta Mahee Medium"),
+    url("../public/assets/fonts/mukta/MuktaMahee-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mukta Mahee SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mukta Mahee SemiBold"),
+    url("../public/assets/fonts/mukta/MuktaMahee-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mukta Mahee Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mukta Mahee Bold"),
+    url("../public/assets/fonts/mukta/MuktaMahee-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mukta Mahee ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mukta Mahee ExtraBold"),
+    url("../public/assets/fonts/mukta/MuktaMahee-ExtraBold.woff") format("woff");
+} */
+body {
+    direction: ltr;
+    margin: 0;
+    font-size: 10px;
+    font-family: "Mukta Mahee Regular";
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+a:hover {
+  color: #1e8282;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.3rem;
+}
+h3 {
+    font-size: 1.1rem;
+}
+h4 {
+    font-size: 0.9rem;
+}
+p {
+    font-size: 1rem;
+}

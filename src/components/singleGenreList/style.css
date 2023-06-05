@@ -1,0 +1,72 @@
+.single-genre-list {
+    /* background-color: #ededc9; */
+    padding-top: 80px;
+}
+.single-genre-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.single-genre-list ul li {
+    width: 25%;
+    padding: 30px 20px;
+}
+.single-genre-list ul li a {
+    color: #000;
+}
+.single-genre-list ul li a .box img {
+    width: 100%;
+}
+.single-genre-list ul li a .box {
+    padding: 7px;
+}
+.single-genre-list ul li a .box:hover {
+    background-color: #fff;
+    outline: 1px solid #000;
+}
+.single-genre-list ul li a .box .hover-box {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.single-genre-list ul li a .box:hover .hover-box {
+    opacity: 1;
+    visibility: visible;
+}
+.single-genre-list ul li a .box .hover-box .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.single-genre-list ul li a .box .hover-box .info.down ul.genres-wrap li.genre {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #1e8282;
+    opacity: 1;
+}
+.single-genre-list ul li a .box .hover-box .info.up {
+    padding: 13px 0 2px 0;
+}
+.single-genre-list ul li a .box .hover-box .info.up p.year {
+    opacity: 0.65;
+}
+.single-genre-list ul li a .box .hover-box .info.down {
+    padding: 2px 0;
+}
+.single-genre-list ul li a .box .hover-box .info.down .rating-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.single-genre-list ul li a .box .hover-box .info.down img {
+    width: 30px;
+    height: auto;
+}
+.single-genre-list ul li a .box .hover-box .info.down p.rating {
+    opacity: 0.65;
+}

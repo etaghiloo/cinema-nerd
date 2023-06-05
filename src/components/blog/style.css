@@ -1,0 +1,100 @@
+.blog-review {
+    margin: 80px 0;
+}
+.blog-review .title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.blog-review .title .tri {
+    border-left: 20px solid #000;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+}
+.blog-review .blog-wrapper {
+    display: flex;
+    gap: 0;
+    height: 260px;
+}
+.blog-review .article1 {
+    background-color: #c8ffd7;
+    width: 370px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.blog-review .article1 p {
+    padding-top: 3px;
+    font-size: 1.3rem;
+}
+.blog-review .article2 {
+    background-color: #fff6c5;
+    width: 370px;
+    padding: 20px;
+    position: relative;
+}
+.blog-review .article2:after {
+    border-left: 30px solid #fff6c5;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 370px;
+}
+.blog-review .article2 p {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+.blog-review .article2-image img {
+    width: 392px;
+}
+.blog-review .article3 {
+    background-color: #ffcfd6;
+    width: 350px;
+    padding: 20px;
+    position: relative;
+}
+.blog-review .article3:after {
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #ffcfd6;
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50px;
+}
+.blog-review .article3 p,
+.blog-review .article4 p {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+.blog-review .explore {
+    width: 330px;
+    padding: 20px;
+    background-color: #bdeeee;
+}
+.blog-review .explore h2 {
+    font-size: 2.2rem;
+}
+.blog-review .explore h2 a {
+    color: #000;
+}
+.blog-review .explore h2 a:hover {
+    color: #1e8282;
+}
+.blog-review .explore h3 {
+    font-size: 1.8rem;
+}
+.blog-review .article4 {
+    background-color: #d6dcff;
+    width: 762px;
+    padding: 20px;
+    height: 260px;
+}
+.blog-review .article3-image img {
+    width: 438px;
+    height: 260px;
+}

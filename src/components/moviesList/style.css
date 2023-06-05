@@ -1,0 +1,82 @@
+/* .movies-list {
+    background-color: #fff8db;
+    background-color: #fff;
+} */
+.movies-list .title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.movies-list .title .tri {
+    border-left: 20px solid #000;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+}
+.movies-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.movies-list ul li {
+    width: 25%;
+    padding: 30px 10px;
+}
+.movies-list ul li a {
+    color: #000;
+}
+.movies-list ul li a .box img {
+    width: 100%;
+}
+.movies-list ul li a .box {
+    padding: 7px;
+}
+.movies-list ul li a .box:hover {
+    background-color: #fff;
+    outline: 1px solid #000;
+}
+.movies-list ul li a .box .hover-box {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.movies-list ul li a .box:hover .hover-box {
+    opacity: 1;
+    visibility: visible;
+}
+.movies-list ul li a .box .hover-box .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.movies-list ul li a .box .hover-box .info.up {
+    padding: 13px 0 2px 0;
+}
+.movies-list ul li a .box .hover-box .info.up p.year {
+    opacity: 0.65;
+}
+.movies-list ul li a .box .hover-box .info.down {
+    padding: 2px 0;
+}
+.movies-list ul li a .box .hover-box .info.down ul.genres-wrap li.genre {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #1e8282;
+    opacity: 1;
+}
+.movies-list ul li a .box .hover-box .info.down .rating-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.movies-list ul li a .box .hover-box .info.down img {
+    width: 30px;
+    height: auto;
+}
+.movies-list ul li a .box .hover-box .info.down p.rating {
+    opacity: 0.65;
+}

@@ -1,0 +1,59 @@
+.header {
+    position: relative;
+    height: 430px;
+    z-index: 1;
+    color: #fff;
+}
+.header .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.header .background img {
+    width: 100%;
+}
+.header:after {
+    background: radial-gradient(70% 53% at 50% 45%, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(4px);
+}
+.header:before {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #000;
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 355px;
+}
+.header .logo404 {
+    padding: 130px 0 10px 0;
+    /* text-align: center; */
+    position: relative;
+    z-index: 1;
+}
+.header .logo404 img {
+    width: 300px;
+    height: auto;
+    opacity: 0.8;
+}
+.header .content {
+    z-index: 2;
+    position: relative;
+    /* text-align: center; */
+    width: 570px;
+}
+.header .content .text01 {
+    letter-spacing: 9px;
+    padding-bottom: 15px;
+}
+.header .content .text02 p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
