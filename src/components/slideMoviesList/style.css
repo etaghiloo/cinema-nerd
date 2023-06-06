@@ -12,9 +12,9 @@
     gap: 15px;
 }
 .slide-movies-list .title-all .title .tri {
-    border-left: 20px solid #000;
-    border-bottom: 15px solid transparent;
-    border-top: 15px solid transparent;
+    border-left: 17px solid #000;
+    border-bottom: 12px solid transparent;
+    border-top: 12px solid transparent;
 }
 .slide-movies-list .title-all a {
     color: #1e8282;

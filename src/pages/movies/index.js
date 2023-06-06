@@ -5,10 +5,10 @@ import Header from "../../components/header";
 import sampleMovie from "../../sampleMovie.jpg"
 import AllGenresList from "../../components/allGenresList";
 import MoviesList from "../../components/moviesList";
+import AddMovie from "../../components/addMovie";
 import Footer from "../../components/footer";
 import logo from "../../cinema-nerd-logo-white.png";
 import ratingIcon from "../../imdb.png";
-import "./style.css";
 
 export default function Movies() {
     const [genres, setGenres] = useState([]);
@@ -34,6 +34,7 @@ export default function Movies() {
             <Header background={sampleMovie} icon={logo} text03="The Prestige" text04="Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion." ratingIcon={ratingIcon} text05="8.5"/>
             <AllGenresList data={genres} />
             <MoviesList data={movies} />
+            <AddMovie />
             <Footer />
         </div>
     )

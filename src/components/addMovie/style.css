@@ -1,11 +1,11 @@
-.join {
+.add-movie {
     /* background-color: rgb(238, 205, 155); */
     position: relative;
     z-index: 1;
     color: #fff;
     overflow: hidden;
 }
-.join:before {
+.add-movie:before {
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     border-top: 40px solid #fff;
@@ -15,15 +15,15 @@
     left: 355px;
     z-index: 1;
 }
-.join .background {
+.add-movie .background {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-.join .background img {
+.add-movie .background img {
     width: 100%;
 }
-.join:after {
+.add-movie:after {
     background: radial-gradient(70% 53% at 50% 45%, rgba(0, 0, 0, 0) 0%, #000 100%);
     width: 100%;
     height: 100%;
@@ -33,24 +33,24 @@
     left: 0;
     backdrop-filter: blur(12px);
 }
-.join .join-wrapper {
+.add-movie .add-movie-wrapper {
     padding: 80px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px;
 }
-.join .text {
+.add-movie .text {
     max-width: 600px;
     z-index: 2;
 }
-.join .text p {
+.add-movie .text p {
     padding: 17px 0 35px 0;
     font-size: 1.3rem;
     line-height: 1.7rem;
     opacity: 0.7;
 }
-.join .text h2 {
+/* .join .text h2 {
     font-size: 1.3rem;
     font-weight: lighter;
 }
@@ -62,15 +62,19 @@
 .join .text ul li i {
     font-size: 1.3rem;
     color: #1e8282;
-}
-.join .create-account {
+} */
+.add-movie .insert-movie-info {
     width: 438px;
     z-index: 2;
 }
 /* .join .create-account .create-account-up {
     border: 1px solid #fff;
 } */
-.join .create-account input {
+.add-movie .insert-movie-info .movie-info-up .bundle {
+    display: flex;
+    gap: 10px;
+}
+.add-movie .insert-movie-info .movie-info-up input {
     width: 100%;
     height: 50px;
     border:  none;
@@ -81,32 +85,30 @@
     /* color: #fff; */
     margin: 5px 0;
 }
-.join .create-account input:focus {
+.add-movie .insert-movie-info .movie-info-up input.title,
+.add-movie .insert-movie-info .movie-info-up input.imdb_id,
+.add-movie .insert-movie-info .movie-info-up input.country,
+.add-movie .insert-movie-info .movie-info-up input.year {
+    color: #c53400;
+}
+.add-movie .insert-movie-info .movie-info-up input:focus {
     outline: 2px solid #1e8282;
 }
-.join .create-account .name {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-.join .create-account .name input {
-    /* margin: 5px; */
-    width: 50%;
-}
-.join .create-account .create-account-down {
+.add-movie .insert-movie-info .movie-info-down {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
 }
-.join .create-account .create-account-down a {
-    color: #1e8282;
-    font-size: 1.3rem;
+.add-movie .insert-movie-info .movie-info-down p.required {
+    font-size: 1rem;
+    color: #de673c;
 }
-.join .create-account .create-account-down a:hover {
-    color: #1e8282;
+.add-movie .insert-movie-info .movie-info-down p.optional {
+    font-size: 1rem;
+    color: #7a7575;
 }
-.join .create-account .create-account-down button {
+.add-movie .insert-movie-info .movie-info-down button {
     width: 50%;
     height: 50px;
     border: none;
@@ -117,7 +119,7 @@
     color: #1e8282;
     transition: all 0.3s;
 }
-.join .create-account .create-account-down button:hover {
+.add-movie .insert-movie-info .movie-info-down button:hover {
     /* color: #fff; */
     cursor: pointer;
     background-color: #ffffff;

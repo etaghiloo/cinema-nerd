@@ -8,9 +8,9 @@
     gap: 15px;
 }
 .movies-list .title .tri {
-    border-left: 20px solid #000;
-    border-bottom: 15px solid transparent;
-    border-top: 15px solid transparent;
+    border-left: 17px solid #000;
+    border-bottom: 12px solid transparent;
+    border-top: 12px solid transparent;
 }
 .movies-list ul {
     display: flex;

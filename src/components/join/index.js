@@ -29,7 +29,6 @@ export default function Join() {
                         </ul>
                     </div>
                     <div class="create-account">
-                        {/* <h2>CREATE ACCOUNT</h2> */}
                         <div class="create-account-up">
                             <div class="name">
                                 <input class="first-name" placeholder="FIRST NAME"/>
