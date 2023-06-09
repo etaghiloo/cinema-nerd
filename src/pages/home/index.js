@@ -15,11 +15,10 @@ export default function Home() {
             setMovies(response.data.data);
         })
     }
-
+    function postUser() {}
     useEffect(function() {
         getApi();
     }, []);
-
     return (
         <div class="home-page">
             <Header background={Homebackground} icon={logo} logo={logo} text01="CINEMA NERD" text02="Browse Through Our Collection of Movies and Series! " />
